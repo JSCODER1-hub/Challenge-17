@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+}
+main {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 20px 0;
+  width: 370px;
+}
+.container {
+  width: 330px;
+  margin: auto;
+}
+.container .star {
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #424f5c;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.container h1 {
+  color: white;
+}
+.container p {
+  color: hsl(217, 12%, 63%);
+}
+.container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .rates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.rates span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #424f5c;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+}
+.container .rates span.active {
+  background-color: #7c8898;
+  color: white;
+}
+.container .rates span:hover {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.container form button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 12px;
+
+  margin-top: 20px;
+}
+.container form button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.card-content-2 {
+  display: flex;
+  background-color: #1d242e;
+  border-radius: 1.5em;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 360px;
+}
+.card-content-2 img {
+  width: 14.5rem;
+  margin-top: 1rem;
+}
+.card-content-2 .text {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-content-2 .result {
+  background-color: #7c8898;
+  padding: 0.8rem 1.4rem;
+  border-radius: 2rem;
+  margin-top: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+.card-content-2 div {
+  color: orange;
+}
+.card-content-2 h2 {
+  color: white;
+}
+.card-content-2 .text {
+  color: hsl(217, 12%, 63%);
+}
+.hide {
+  display: none;
+}
